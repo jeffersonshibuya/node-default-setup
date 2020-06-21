@@ -1,12 +1,12 @@
-import express from "express";
-import "@controllers/UserController";
+import express from 'express'
+import '@controllers/UserController'
 
-const app = express();
+const app = express()
 
-app.get("/", (request, response) => {
-  response.send("Hello world");
-});
+app.get('/', (request, response) => {
+  response.send('Hello world')
+})
 
 app.listen(3333, () => {
-  console.log("App Running...");
-});
+  console.log('App Running...')
+})
